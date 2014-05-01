@@ -5,8 +5,6 @@
 
 # HTML Playground
 
-## Instructions
-
 You know that really popular blogging platform where people post cat gifs? Wouldn't it be cool to see how that works?
 
 In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website!
@@ -34,14 +32,21 @@ Every HTML element is expressed with and start and end tag, with the content you
 </html>
 ```
 
-Everything on your page should be surrounded by `<html></html>` tags. The `<head></head>` tags encapsulate information about the page, like what type of language it is, and which stylesheets and other files we would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
+Everything on your page should be surrounded by `<html></html>` tags. The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
 
-Everything you want on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live within the body tags.
+Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live within the body tags.
 
 ## Some helpful HTML elements
 
 
 
+## What to do
+
+Open up `index.html` in Sublime Text and check out what's going on. Look for the tags we've learned about from above and try to figure out what they're doing.
+
+It's helpful to have `index.html` open in your browser at the same time. Make some changes to the file and see what happens the in browser! Remember you can always undo a change you don't want.
+
+Look for comments (any text that's between `<!--  -->` tags won't show up on the page) for some helpful hints on where to include different things.
 
 ## Note
 
