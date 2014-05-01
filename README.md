@@ -9,7 +9,7 @@
 
 You know that really popular blogging platform where people post cat gifs? Wouldn't it be cool to see how that works?
 
-In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website.
+In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website!
 
 ## What is HTML?
 
@@ -34,7 +34,9 @@ Every HTML element is expressed with and start and end tag, with the content you
 </html>
 ```
 
-Everything on your page should be surrounded by `<html></html>` tags. The `<head></head>` tags encapsulate information about the page, like what type of language it is, and which stylesheets and other files we would like to include (more on that later). In-between
+Everything on your page should be surrounded by `<html></html>` tags. The `<head></head>` tags encapsulate information about the page, like what type of language it is, and which stylesheets and other files we would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
+
+Everything you want on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live within the body tags.
 
 ## Some helpful HTML elements
 
@@ -43,6 +45,6 @@ Everything on your page should be surrounded by `<html></html>` tags. The `<head
 
 ## Note
 
-Don't worry if this don't fully make sense. It's a playground space for you to explore some HTML and render your fave gifs on a page. We're going to go more into detail on what's happening after this lab.
+Don't worry if this don't fully make sense. This is a playground space for you to explore some HTML and render your fave gifs and images on a page. We're going to go more into detail on what's happening after this lab.
 
 Have fun! :)
