@@ -39,6 +39,7 @@ Everything you want displayed on your page, all text, images, and videos, lives 
 ## Some helpful HTML elements
 <h1></h1> This tag is used for main headers of pages. It denotes a much bigger font.
 <h2></h2> This tag is useful to subheaders. Think of this like on a business card, when someone lists their name, and then their job title is listed just a little bit smaller. There are also h3, h4, h5, and h6 tags. The font gets progressively smaller as the numbers get bigger. h1 is much larger than h6
+<h3></h3> Even smaller header. Think of this when you're using titles for blog posts, etc.
 <p></p> Use this tag for chunks of text. The p stands for paragraph
 <br> HTML doesn't understand whitespace. Which means if in your HTML document you push return a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use <br> to manually create those white lines. <br> is one of the only tags that doesn't require a closing tag
 <a href=""></a> The <a> tag is a link tag. The href portion is considered an attribute of the <a> tag. In the quotes following the `=` is where you would put the website you are trying to link to. For example, if you were trying to link to google, you would write <a href="www.google.com">CLICK HERE TO GO TO GOOGLE</a>
