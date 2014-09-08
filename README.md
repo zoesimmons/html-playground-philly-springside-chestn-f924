@@ -1,6 +1,8 @@
 ---
-  tags: html, css, kids
-  languages: html, css
+  tags: html, kids
+  languages: html
+  type: lab
+  level: 1
 ---
 
 # HTML Playground
@@ -55,17 +57,10 @@ Everything you want displayed on your page, all text, images, and videos, lives 
 `<title></title>` Used for the title of your site. This is what will be displayed in the browser tab.
 
 
-
-## What to do
+## Challenge:
 
 Open up `index.html` in Sublime Text and check out what's going on. Look for the tags we've learned about from above and try to figure out what they're doing.
 
-It's helpful to have `index.html` open in your browser at the same time. Make some changes to the file and see what happens the in browser! Remember you can always undo a change you don't want.
+It's helpful to have `index.html` open in your browser at the same time. Make some changes to the file and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
 
 Look for comments (any text that's between `<!--  -->` tags won't show up on the page) for some helpful hints on where to include different things.
-
-## Note
-
-Don't worry if this don't fully make sense. This is a playground space for you to explore some HTML and render your fave gifs and images on a page. We're going to go more into detail on what's happening after this lab.
-
-Have fun! :)
