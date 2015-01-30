@@ -29,7 +29,7 @@ Everything you want displayed on your page -- all text, images, and videos -- li
 ## Some helpful HTML elements
 
 + `<h1> </h1>` This tag is used for main headers of pages. It denotes a much bigger font.
-```html
+
 <h1>&lt;h1&gt; h1 is the biggest tag of all... &lt;/h1&gt;</h1>
 <h2>&lt;h2&gt; Second largest is h2... &lt;/h2&gt;</h2>
 <h3>&lt;h3&gt; Getting a bit smaller with h3... &lt;/h3&gt;</h3>
@@ -37,7 +37,6 @@ Everything you want displayed on your page -- all text, images, and videos -- li
 <h5>&lt;h5&gt; And then the h5 is even smaller. &lt;/h5&gt;</h5>
 <h6>&lt;h6&gt; Lastly is h6, the runt of the litter. That's some tiny font! &lt;/h6&gt;</h6>
 <p>&lt;p&gt; For comparison, this is text within a &lt;p&gt; tag. Notice how it's bigger than h5 and h6! &lt;/p&gt;</p>
-```
 
 + `<h2> </h2>` This tag is useful to subheaders. Think of this like on a business card, when someone lists their name, and then their job title is listed just a little bit smaller. There are also h3, h4, h5, and h6 tags. The font gets progressively smaller as the numbers get bigger. h1 is much larger than h6
 
