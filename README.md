@@ -25,7 +25,7 @@ Everything on your page should be surrounded by `<html> </html>` tags. The `<hea
 Everything you want displayed on your page -- all text, images, and videos -- lives within the `<body> </body>` tags.
 
 ### Challenge:
-Open up `index.html` in Sublime Text and check out what's going on. Look for the tags you've learned about and try to figure out what they're doing.
+Open up `index.html` in your text editor and check out what's going on. Look for the tags you've learned about and try to figure out what they're doing.
 
 It's helpful to have `index.html` open in your browser at the same time. Make some changes to the file and see what happens the in your browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
 
