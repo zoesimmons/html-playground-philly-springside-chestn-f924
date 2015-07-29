@@ -1,9 +1,4 @@
----
-  tags: html, kids
-  languages: html
-  type: lab
-  level: 1
----
+
 
 ### HTML Playground
 <img src="https://after-school-assets.s3.amazonaws.com/cat.gif" width="200px" align="right" hspace="10"> You know [Tumblr](http://www.tumblr.com), that really popular blogging platform where people post tons of cat gifs? Wouldn't it be cool to see how that works? In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website!
