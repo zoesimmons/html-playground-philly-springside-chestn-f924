@@ -1,10 +1,3 @@
----
-  tags: html, kids
-  languages: html
-  type: lab
-  level: 1
----
-
 # HTML Playground
 
 You know that really popular blogging platform where people post cat gifs? Wouldn't it be cool to see how that works?
@@ -34,9 +27,9 @@ Every HTML element is expressed with and start and end tag, with the content you
 </html>
 ```
 
-Everything on your page should be surrounded by `<html></html>` tags. The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
+All the code in `index.html` should be surrounded by `<html></html>` tags, just like in the code example above. The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
 
-Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live within the body tags.
+Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live between the opening and closing the body tags.
 
 ## Some helpful HTML elements
 
@@ -56,11 +49,29 @@ Everything you want displayed on your page, all text, images, and videos, lives 
 
 `<title></title>` Used for the title of your site. This is what will be displayed in the browser tab.
 
+Your `index.html` will look like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag.png">
+
+Which shows up in the browser like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
+
 
 ## Challenge:
 
-Open up `index.html` in Sublime Text and check out what's going on. Look for the tags we've learned about from above and try to figure out what they're doing.
+Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` to open it in the text editor. Look for the tags we've learned about from above and try to figure out what they're doing.
 
-It's helpful to have `index.html` open in your browser at the same time. Make some changes to the file and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
+It's helpful to have `index.html` open in your browser at the same time. You can do that by entering in terminal: 
+
+```
+python -m SimpleHTTPServer 3000
+```
+
+Once you have the server running, select `preview` and then `port 3000`.
+
+<img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
+
+ Make some changes to the file, save those changes and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
 
 Look for comments (any text that's between `<!--  -->` tags won't show up on the page) for some helpful hints on where to include different things.
