@@ -1,22 +1,12 @@
 # HTML Playground
 
-You know that really popular blogging platform where people post cat gifs? Wouldn't it be cool to see how that works?
+<img src="https://after-school-assets.s3.amazonaws.com/cat.gif" width="200px" align="right" hspace="10"> 
 
-In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website!
+You know [Tumblr](http://www.tumblr.com), that really popular blogging platform where people post tons of cat gifs? Wouldn't it be cool to see how that works? In this lab, you'll be filling in your own HTML elements and attributes to modify a Tumblr-like website!
 
-## What is HTML?
+## The format of every HTML site looks like this:
 
-HTML is a markdown language that allows you to render whatever you want on a webpage. Think of each element as a holder for what you want on the page, whether it's text, images, gifs (which are actually images, but obviously better), and videos.
-
-Every HTML element is expressed with and start and end tag, with the content you want displayed on your website in-between them. Let's say I wanted a headline on the top of my page. I would use the `<h1>` element and write:
-
-`<h1>My Favorite GIFs</h1>`
-
-### The Format of every HTML webpage...
-
-#### ...looks like this:
-
-```
+```html
 <html>
 <head>
   <title></title>
@@ -29,7 +19,17 @@ Every HTML element is expressed with and start and end tag, with the content you
 
 All the code in `index.html` should be surrounded by `<html></html>` tags, just like in the code example above. The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
 
+The title tag in your `index.html` should look something like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag.png">.
+
+After you save your changes, and look at it in the browser, you'll see the text in the tab of the browser like this:
+
+<img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
+
 Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live between the opening and closing the body tags.
+
+When you open this site in the browser, you'll notice the page is fully styled for you. That code to style the page has been written for you in `style.css`. This stylesheet dictates where and in what style the HTML should be displayed. Don't worry about the code in `style.css` quite yet. We'll get to that soon!
 
 ## Some helpful HTML elements
 
@@ -43,24 +43,17 @@ Everything you want displayed on your page, all text, images, and videos, lives 
 
 `<br>` HTML doesn't understand whitespace. Which means if in your HTML document you push return a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use `<br>` to manually create those white lines. `<br>` is one of the only tags that doesn't require a closing tag
 
-`<a href=""></a>` The `<a>` tag is a link tag. The href portion is considered an attribute of the `<a>` tag. In the quotes following the `=` is where you would put the website you are trying to link to. For example, if you were trying to link to google, you would write `<a href="www.google.com">CLICK HERE TO GO TO GOOGLE</a>`
-
-`<img src="">` The img tag is for images. `src` is considered an attribute of the `<img>` tag. It's where you would list the image you are trying to display on your website. You can link directly to an image on the website, in which case you would list the URL to the image, or you can link to images on your computer, in which case you would list the path to the image.
-
-`<title></title>` Used for the title of your site. This is what will be displayed in the browser tab.
-
-Your `index.html` will look like this:
-
-<img src="https://s3.amazonaws.com/after-school-assets/title-tag.png">
-
-Which shows up in the browser like this:
-
-<img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
 
 
-## Challenge:
 
-Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` to open it in the text editor. Look for the tags we've learned about from above and try to figure out what they're doing.
+### Challenge:
+
+The point of this lab is to be exactly what it's called: A playground! What that means is that this is a place for you to experiment with HTML. Don't worry about making mistakes. We want you to get comfortable making mistakes, being okay making mistakes, and then learning from them.
+
+Take a look at the [Mozilla Developer Network HTML tag documentationn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for suggestions of tags to play with. Have fun making this site yours, and mess around with different HTML tags.
+
+### Get Started: 
+Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` inside the `HTML-playground` directory to open it in the text editor. Look for comments (any text that's between `<!--  -->` is a comment, and it won't show up on the page) for hints.Look for the tags we've learned about from above and try to figure out what they're doing.
 
 It's helpful to have `index.html` open in your browser at the same time. You can do that by entering in terminal: 
 
@@ -73,5 +66,3 @@ Once you have the server running, select `preview` and then `port 3000`.
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
  Make some changes to the file, save those changes and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
-
-Look for comments (any text that's between `<!--  -->` tags won't show up on the page) for some helpful hints on where to include different things.
