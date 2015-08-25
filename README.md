@@ -65,7 +65,9 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
- Make some changes to the file, save those changes and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
+Make some changes to the file, save those changes and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
+
+Make sure to stop your server when you're done testing by hitting `control` + `c`.
 
 ### When You're Finished:
 
