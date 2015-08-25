@@ -53,7 +53,7 @@ The point of this lab is to be exactly what it's called: A playground! What that
 Take a look at the [Mozilla Developer Network HTML tag documentationn](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for suggestions of tags to play with. Have fun making this site yours, and mess around with different HTML tags.
 
 ### Get Started: 
-Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` inside the `HTML-playground` directory to open it in the text editor. Look for comments (any text that's between `<!--  -->` is a comment, and it won't show up on the page) for hints.Look for the tags we've learned about from above and try to figure out what they're doing.
+Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` inside the `HTML-playground` directory to open it in the text editor. Look for comments (any text that's between `<!--  -->` is a comment, and it won't show up on the page) for hints. Look for the tags we've learned about from above and try to figure out what they're doing.
 
 It's helpful to have `index.html` open in your browser at the same time. You can do that by entering in terminal: 
 
@@ -71,4 +71,4 @@ Make sure to stop your server when you're done testing by hitting `control` + `c
 
 ### When You're Finished:
 
-In order to mark this lab as finished, in Nitrous, in terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to github.com, and mark this lab as complete!
+In order to mark this lab as finished, in Nitrous, in terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to GitHub, and mark this lab as complete!
