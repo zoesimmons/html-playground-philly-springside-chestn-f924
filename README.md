@@ -66,3 +66,7 @@ Once you have the server running, select `preview` and then `port 3000`.
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
  Make some changes to the file, save those changes and see what happens the in browser by refreshing the page! Remember you won't see the changes in the browser if you haven't saved your changes in your HTML file.
+
+### When You're Finished:
+
+In order to mark this lab as finished, in Nitrous, in terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to github.com, and mark this lab as complete!
