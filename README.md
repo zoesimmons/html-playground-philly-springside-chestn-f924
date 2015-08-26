@@ -44,8 +44,6 @@ When you open this site in the browser, you'll notice the page is fully styled f
 `<br>` HTML doesn't understand whitespace. Which means if in your HTML document you push return a bunch of times and have a lot of empty lines, your browser won't recognize those empty lines. Use `<br>` to manually create those white lines. `<br>` is one of the only tags that doesn't require a closing tag
 
 
-
-
 ### Challenge:
 
 The point of this lab is to be exactly what it's called: A playground! What that means is that this is a place for you to experiment with HTML. Don't worry about making mistakes. We want you to get comfortable making mistakes, being okay making mistakes, and then learning from them.
