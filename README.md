@@ -17,8 +17,11 @@ You know [Tumblr](http://www.tumblr.com), that really popular blogging platform 
 </html>
 ```
 
-All the code in `index.html` should be surrounded by `<html></html>` tags, just like in the code example above. The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
+All the code in `index.html` should be surrounded by `<html></html>` tags, just like in the code example above. This tells our browser we're writing HTML.
 
+The `<head></head>` tags encapsulate information about the page that won't show up on your page when viewing it, like which stylesheets and other files you would like to include (more on that later). 
+
+In-between the `<title></title>` tags is the title of your site. You know the text on a tab in your browser? That's the title.
 The title tag in your `index.html` should look something like this:
 
 <img src="https://s3.amazonaws.com/after-school-assets/title-tag.png">.
@@ -27,7 +30,9 @@ After you save your changes, and look at it in the browser, you'll see the text 
 
 <img src="https://s3.amazonaws.com/after-school-assets/title-tag-in-browser.png">
 
-Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. That `<h1></h1>` from before would live between the opening and closing the body tags.
+Everything you want displayed on your page, all text, images, and videos, lives within the `<body></body>` tags. 
+
+That `<h1></h1>` from before would live between the opening and closing the body tags.
 
 When you open this site in the browser, you'll notice the page is fully styled for you. That code to style the page has been written for you in `style.css`. This stylesheet dictates where and in what style the HTML should be displayed. Don't worry about the code in `style.css` quite yet. We'll get to that soon!
 
@@ -69,4 +74,4 @@ Make sure to stop your server when you're done testing by hitting `control` + `c
 
 ### When You're Finished:
 
-In order to mark this lab as finished, in Nitrous, in terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to GitHub, and mark this lab as complete!
+In order to mark this lab as finished, in this Nitrous terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to GitHub, and mark this lab as complete!
