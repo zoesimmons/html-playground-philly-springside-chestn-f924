@@ -71,7 +71,7 @@ If you need some guidance getting started...
 Familiar with HTML and CSS? See if you can change the background color, font style, and font-color. This is going to be tricky but we're using Bootstrap, an external stylesheet, so you won't see all the CSS for the page in this directory. There is a way to do it though, so good luck!
 
 ### Get Started: 
-Click the `Open In Nitrous` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` inside the `HTML-playground` directory to open it in the text editor. Look for comments (any text that's between `<!--  -->` is a comment, and it won't show up on the page) for hints. Look for the tags we've learned about from above and try to figure out what they're doing.
+Click the `Open` button at the top of Learn. This will bring you to Nitrous. In the left-hand side in the navigation bar, you'll want to look in the `code` directory, and look for the `HTML-playground` directory. Double click on `index.html` inside the `HTML-playground` directory to open it in the text editor. Look for comments (any text that's between `<!--  -->` is a comment, and it won't show up on the page) for hints. Look for the tags we've learned about from above and try to figure out what they're doing.
 
 It's helpful to have `index.html` open in your browser at the same time. You can do that by entering in terminal: 
 
