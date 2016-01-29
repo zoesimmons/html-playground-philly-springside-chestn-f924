@@ -91,4 +91,4 @@ Make sure to stop your server when you're done testing by hitting `control` + `c
 
 In order to mark this lab as finished, in this Nitrous terminal, in the directory for this lab (`nitrous < code < labs < html-playground`), enter `learn submit`. This will push your work up to GitHub, and mark this lab as complete!
 
-<a href='https://learn.co/lessons/html-playground' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-playground' title='HTML Playground'>HTML Playground</a> on Learn.co and start learning to code for free.</p>
